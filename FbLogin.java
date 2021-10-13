@@ -27,6 +27,12 @@ public class Fb {
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
 	}
 	
+	@Test
+	public void verifyRadiobtn()
+	{
+		System.out.println("check radio button");
+	}
+	
 	@AfterTest
 	public void tearDown()
 	{
