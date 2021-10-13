@@ -24,7 +24,7 @@ public class Fb {
 	
 	
 	@Test
-	public void verifyRadiobtn()
+	public void verifyRadiobtn(WebElement ele)
 	{
 		System.out.println("check radio button");
 	}
@@ -37,9 +37,15 @@ public class Fb {
 	
 	
 	@Test
-	public void verifyCheckbox()
+	public void verifyCheckbox(int a, int b)
 	{
 		System.out.println("check box");
+	}
+	
+	@Test
+	public void verifyDropdown()
+	{
+		System.out.println("dropdownhanlding");
 	}
 	@AfterTest
 	public void tearDown()
