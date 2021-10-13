@@ -21,11 +21,7 @@ public class Fb {
 		Assert.assertEquals(driver.getTitle(), "Facebook login or signup");
 	}
 	
-	@Test
-	public void verifyUrl()
-	{
-		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
-	}
+	
 	
 	@Test
 	public void verifyRadiobtn()
@@ -33,6 +29,18 @@ public class Fb {
 		System.out.println("check radio button");
 	}
 	
+	@Test
+	public void verifyUrl1()
+	{
+		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
+	}
+	
+	
+	@Test
+	public void verifyCheckbox()
+	{
+		System.out.println("check box");
+	}
 	@AfterTest
 	public void tearDown()
 	{
