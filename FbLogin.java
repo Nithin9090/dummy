@@ -47,6 +47,14 @@ public class Fb {
 	{
 		System.out.println("dropdownhanlding");
 	}
+	
+	@Test
+	public void updateCode()
+	{
+		System.out.println("prabhu update");
+	}
+	
+	
 	@AfterTest
 	public void tearDown()
 	{
